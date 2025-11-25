@@ -1,19 +1,17 @@
 name = "huayun"
-compatibility_date = "2024-11-20"
-pages_build_output_dir = "./dist"
+pages_build_output_dir = "dist"
 
-# ========== D1 数据库 ==========
+compatibility_date = "2024-11-20"
+
 [[d1_databases]]
 binding = "DB"
 database_name = "huayun_db"
 database_id = "D220A23A-3578-4B36-97A6-e6B1A4bb2B4f"
 
-# ========== KV（Session）==========
 [[kv_namespaces]]
 binding = "SESSIONS"
 id = "c8acac853b3348048e8F43ADF0E3caff"
 
-# ========== R2 图片存储 Bucket ==========
 [[r2_buckets]]
 binding = "HUAYUN_BUCKET"
 bucket_name = "huayun-images"
