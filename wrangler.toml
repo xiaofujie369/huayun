@@ -6,7 +6,7 @@ compatibility_date = "2024-11-20"
 [[d1_databases]]
 binding = "DB"
 database_name = "huayun_db"
-database_id = "D220A23A-3578-4B36-97A6-e6B1A4bb2B4f"
+database_id = "d220a23a-3578-4b36-97a6-e6b1a4bb2b4f"
 
 [[kv_namespaces]]
 binding = "SESSIONS"
